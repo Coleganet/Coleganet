@@ -1,0 +1,24 @@
+BlaBlaNet 1.15 (2016-10-01)
+	- Change Widgets.php Remove Display Setting Make User menu easy and Friendly
+        - Force MrBlue Theme Install again Zafiro
+        - Remove Images
+        - Changes to Zot Protocol
+        - Add Metatags to the .htconfig File 
+        - Change and update Logos
+        - Remove Old Chatroom changes widgets, menu.php, nav.php 
+        - Add for Unfinish Jobs for remove all the chat rooms code and restore official Comunications addon
+        - Remove to fron features.php advance theming and chatrooms
+        - Change Icon Grid APP
+        - Add some Screenshots
+        - Change SiteInfo Setup
+        - Remove Load Average front GeditLab/Module/Siteinfo.php Dangerous server Information not need to be release
+        - Some more Test with Smarty
+        - Ant Nodes Set to Standar Setup "GeditLab/Module/Setup.php" Compatibility with Foss 
+        - Remove Server Roles front Admin Section - Compatibility with Foss GeditLab/Module/Admin/Site.php
+        - Add Email Notifications removal Link - Not need write a History Book only a simple Link. You Know? ;)
+        - Email Channel Notification Utility
+        - Add Captcha to recovery Password.
+        - Protect Server Signature
+        - Youtuve videos in MrBlue Theme Ajust size
+        - Add gitignore
+        - Add Adminer to Administrator for Manager Local database missing Links etc 
