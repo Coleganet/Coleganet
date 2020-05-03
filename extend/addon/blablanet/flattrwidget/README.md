@@ -1,4 +1,4 @@
-Flattr Widget for The BlaBlaNet
+Flattr Widget for The ColegaNet
 ================================
 This widget is ment to add a [flattr][1] button for one thing to the
 left/right aside area of a red# channel. For example this could be the flattr

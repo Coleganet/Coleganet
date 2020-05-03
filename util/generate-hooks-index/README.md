@@ -1,12 +1,12 @@
 # Generate hooks
 
-This program generates hooks.html documentation from the BlaBlaNet source.
+This program generates hooks.html documentation from the ColegaNet source.
 
 ## Usage
 
 Download and install leiningen
 
-Change directory into  BlaBlaNet/util/generate-hooks-index
+Change directory into  ColegaNet/util/generate-hooks-index
 
 At shell prompt, do:
 
@@ -14,7 +14,7 @@ At shell prompt, do:
 lein run
 ```
 
-Hooks docs will get dumped into BlaBlaNet/doc/hooks.html
+Hooks docs will get dumped into ColegaNet/doc/hooks.html
 
 ## Requirements
 

@@ -1,25 +1,25 @@
-BlaBlaNet- Social Network Kit
+ColegaNet- Social Network Kit
 ===========================
 
-BlaBlaNet is a feature rich and highly flexible OpenSource Social Network Kit written in PHP.
+ColegaNet is a feature rich and highly flexible OpenSource Social Network Kit written in PHP.
 
 It's perfect for individual:
 - Social Intranets
-- [Enterprise Social Networks](https://github.com/BlaBlaNet/BlaBlaNet/wiki/Private-Social-Network)
-- [Private Social Networks](https://github.com/BlaBlaNet/BlaBlaNet/wiki/Private-Social-Network)
+- [Enterprise Social Networks](https://github.com/ColegaNet/ColegaNet/wiki/Private-Social-Network)
+- [Private Social Networks](https://github.com/ColegaNet/ColegaNet/wiki/Private-Social-Network)
 
 More information:
 - [Homepage & Demo](https://blablanet.com)
 - [Documentation & Class Reference](https://blablanet.com/help/develop)
-- [Licence](https://github.com/BlaBlaNet/BlaBlaNet/blob/master/LICENSE)
+- [Licence](https://github.com/ColegaNet/ColegaNet/blob/master/LICENSE)
 - [Community Support](https://blablanet.com/channel/blablanet_support)
 
 [![Build Status]
-(https://github.com/BlaBlaNet/BlaBlaNet/blob/master/images/screen.png)
+(https://github.com/ColegaNet/ColegaNet/blob/master/images/screen.png)
 
-# BlaBlaNet-Social-Network install:
+# ColegaNet-Social-Network install:
 BaBlaNet Social Network is a decentralized Social Network with new improvements and advance add-ons 
-You can BlaBlaNet Social Network Working in https://blablanet.com
+You can ColegaNet Social Network Working in https://blablanet.com
 
 1. Requirements
     - Apache with mod-rewrite enabled and "AllowOverride All" so you can use a 
@@ -46,9 +46,9 @@ You can BlaBlaNet Social Network Working in https://blablanet.com
     - Installation into a top-level domain or sub-domain (without a 
     directory/path component in the URL) is REQUIRED.
 
-2. Unpack the BlaBlaNet files into the root of your web server document area.
+2. Unpack the ColegaNet files into the root of your web server document area.
     
-You can download last release front: https://github.com/BlaBlaNet/BlaBlaNet/releases
+You can download last release front: https://github.com/ColegaNet/ColegaNet/releases
 
 Unzip in a folder and go to Point 2A and continue the install There
 
@@ -56,7 +56,7 @@ If you like to use GIt install GIT first in your server
 
 The stable Version is in :
          
-        git clone https://github.com/BlaBlaNet/BlaBlaNet.git
+        git clone https://github.com/ColegaNet/ColegaNet.git
 
 and them
 
@@ -90,7 +90,7 @@ and them
     - Then you should clone the addon repository (separately). We'll give this repository
          a nickname of 'Bbaddons'. You can pull in other BlaBlanet addons repositories by 
          giving them different nicknames. We not Guranty Further Versions be compatible with 
-         BlaBlaNet Addons.
+         ColegaNet Addons.
               
               util/update_addon_repo blablanet
         
@@ -175,7 +175,7 @@ using web forms.
 ****************************************************************************
 ****************************************************************************
 At this Point for Private Social Networks please Visit before continue for more 
-information: https://github.com/BlaBlaNet/BlaBlaNet/wiki/Private-Social-Network
+information: https://github.com/ColegaNet/ColegaNet/wiki/Private-Social-Network
 
 8. Set up a cron job or scheduled task to run the Cron manager once every 10-15 
 minutes to perform background processing and maintenance. Example:
@@ -191,7 +191,7 @@ one shown, substituting for your unique paths and settings:
 
 You can generally find the location of PHP by executing "which php". If you 
 have troubles with this section please contact your hosting provider for 
-assistance. BlaBlaNet will not work correctly if you cannot perform this step.
+assistance. ColegaNet will not work correctly if you cannot perform this step.
 
 You should also be sure that App::$config['system']['php_path'] is set correctly 
 in your .htconfig.php file, it should look like (changing it to the correct 
@@ -238,7 +238,7 @@ However, in /etc/mysql/my.cnf the maximum number of connection is set to
 150 workers are a lot and probably too much for small servers. However you
 set those values, make sure that the number of Apache workers is smaller
 than the number of connections MySQL accepts, leaving some room for other
-stuff on your server that might access MySQL, and BlaBlaNet's poller which
+stuff on your server that might access MySQL, and ColegaNet's poller which
 needs MySQL access, too. A good setting for a medium-sized hub might be to
 keep MySQL's max_connections at 100 and set mpm_prefork's
 MaxRequestWorkers to 70.
